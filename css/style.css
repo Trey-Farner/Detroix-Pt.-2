@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #F2F3F5;
 }
@@ -7,6 +11,57 @@ body {
     
 }
 
+.hamburg {
+    border: none;
+}
+
 .bannerTop a {
     color: #9F9FA1;
+}
+
+img {
+    width: 50px;
+}
+
+.navBtn {
+    background-color: #0B0B31;
+    color: #F4FBFF;
+}
+
+.circle {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    background-color: #939393;
+}
+
+.btnMore {
+    background: #213349;
+    padding: .65rem .60rem;
+    color: #FAFCF7;
+    margin-bottom: 1rem;
+}
+
+.display-1 {
+    font-size: clamp(2.5rem, calc(1rem + 4vw), 5rem);
+}
+
+.servicesList {
+    list-style-type: "⚙️";
+}
+
+.btmSection {
+    background: linear-gradient(#1C2D40, #0F1821);
+}
+
+.lorem {
+    list-style-type: "🗨️";
+}
+
+.smHead {
+    color: white;
+}
+
+.colorText {
+    color: #7A7464;
 }
