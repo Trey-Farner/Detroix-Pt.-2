@@ -65,3 +65,26 @@ img {
 .colorText {
     color: #7A7464;
 }
+
+.date1 {
+    background-color: #BD8441;
+}
+
+.date2 {
+    background-color: #BC6142;
+}
+
+.date3 {
+    background-color: #BD425E;
+}
+
+.date1, .date2, .date3 {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 10px;
+}
+
+.copyright {
+    background-color: #0E1E31;
+    color: #9F9FA1;
+}
